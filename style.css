@@ -745,9 +745,7 @@
                 height: 200px; 
             }
         
-            .properties {
-                grid-template-columns: 1fr;
-            }
+            
         
             .section {
                 flex-direction: column;
@@ -763,7 +761,7 @@
             }
         
             .content h1 {
-                font-size: 15px; 
+                font-size: 20px; 
                 font-weight: bold;
                 color: #02214b;
                 padding-top: 30px;
@@ -771,7 +769,7 @@
             }
         
             .content p {
-                font-size: 10px;
+                font-size: 12px;
                 color: #02214b;
                 padding-bottom: 15px;
             }
@@ -783,7 +781,7 @@
             }
         
             .content2 h1 {
-                font-size: 15px; 
+                font-size: 20px; 
                 font-weight: bold;
                 color: #02214b;
                 padding-top: 30px;
@@ -791,7 +789,7 @@
             }
         
             .content2 p {
-                font-size: 10px;
+                font-size: 12px;
                 color: #02214b;
                 padding-bottom: 15px;
             }
@@ -815,6 +813,7 @@
             }
             .hero h1{
                 font-size: 18px;
+                margin-top: 50px;
             }
             .hero p{
                 font-size: 10px;
@@ -826,7 +825,7 @@
               
             }
             .hero-content{
-                margin-top: 55px;
+                margin-top: 75px;
             }
             
 
