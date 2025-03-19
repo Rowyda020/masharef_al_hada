@@ -145,7 +145,7 @@
         
         
         .logo img {
-            height: 70px;
+            height: 60px;
         }
         
       
@@ -288,9 +288,9 @@
             background-color: #e68900;
             color: white;
             border: none;
-            width: 70px;
-            height: 70px;
-            font-size: 24px;
+            width: 60px;
+            height: 60px;
+            font-size: 18px;
             font-weight: bold;
             cursor: pointer;
             border-radius: 50%;
@@ -546,10 +546,13 @@
             text-align: center;
         }
         
-        .container {
-            width: 90%;
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             max-width: 1200px;
             margin: 0 auto;
+            padding: 0 20px;
         }
         
         .footer-links {
@@ -557,8 +560,8 @@
             padding: 0;
             display: flex;
             justify-content: center;
-            flex-wrap: wrap; /* Allows wrapping on smaller screens */
-            gap: 15px; /* Adds spacing between links */
+            flex-wrap: wrap; 
+            gap: 15px; 
         }
         
         .footer-links li {
@@ -575,7 +578,10 @@
         .footer-links a:hover {
             color: #007bff;
         }
-        
+        .footer-logo img {
+            width: 120px; 
+            height: auto;
+        }
         
         
       
@@ -704,7 +710,7 @@
             .footer-links {
               
                 align-items: center;
-                gap: 10px;
+                gap: 5px;
             }
         
             .footer-links li {
@@ -712,12 +718,9 @@
             }
         
             .footer-links a {
-                font-size: 14px;
+                font-size: 10px;
             }
         
-            footer p {
-                font-size: 14px;
-            }
             
         }
         
@@ -840,16 +843,14 @@
             }
         
             .footer-links {
-                gap: 8px;
+                gap: 2px;
             }
         
             .footer-links a {
-                font-size: 10px;
-            }
-        
-            footer p {
                 font-size: 8px;
             }
+        
+           
         }
         
 
@@ -862,6 +863,27 @@
         }
       
         
-      
+        #social-links {
+            text-align: center;
+        }
         
+        #social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            padding: 10px;
+          
+            border-radius: 50%;
+            color: white; 
+            font-size: 20px;
+            text-align: center;
+            width: 40px;
+            height: 40px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
         
+        #social-links a:hover {
+            background-color: rgba(255, 255, 255, 0.2); 
+        }
