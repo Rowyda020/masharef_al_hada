@@ -846,6 +846,7 @@
             .map-container {
                 height: 300px;
                 width: 100%;
+               
             }
             footer {
                 padding: 15px 0;
@@ -866,7 +867,9 @@
            width: 15px;
            height: 15px;
         }
-        
+        .container{
+            margin: 0px 10px;
+        }
            
         }
         
