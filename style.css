@@ -841,7 +841,7 @@
             }
             .section-header {
                
-                font-size: 35px;
+                font-size: 30px;
             }
             .map-container {
                 height: 300px;
@@ -868,7 +868,7 @@
            height: 15px;
         }
         .container{
-            margin: 0px 25px;
+            margin: 0px 20px;
         }
            
         }
