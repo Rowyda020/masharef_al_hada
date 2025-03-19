@@ -34,8 +34,16 @@
                 <h1>في عروس المصايف</h1>
                 <p>ّفي مدينة المناخ البارد المثالي .. في عروس المصايف التي يعجز عن وصف حسنها وقت المطر الشعر والكالم..
                     مشارف الهدا أحد مشاريع التطوير النوعّية من مـدر لالستثمار</p>
+                <a href="#contact" class="btn btn-outline" style="margin-left: 15px;" onclick="toggleSocials()">تواصل
+                    معنا</a>
 
-                <a href="#contact" class="btn btn-outline" style="margin-left: 15px;">تواصل معنا</a>
+                <div id="social-links" style="display: none; margin-top: 10px;">
+                    <a href="https://wa.me/" target="_blank" class="icon"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://facebook.com/" target="_blank" class="icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="icon"><i class="fab fa-twitter"></i></a>
+                </div>
+
+
             </div>
         </div>
     </section>
@@ -155,28 +163,30 @@
 
 
     <div class="cta-container">
-
+        <button class="cta-button" onclick="toggleSocial()">
+            <i class="fas fa-plus"></i>
+        </button>
         <div class="social-buttons" id="socialButtons">
             <a href="https://wa.me/" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
             <a href="https://facebook.com/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
         </div>
-        <button class="cta-button" onclick="toggleSocial()">
-            <i class="fas fa-plus"></i>
-        </button>
+
     </div>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="./3-01.png" alt="Company Logo">
+            </div>
             <ul class="footer-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#properties">Properties</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#locations">Locations</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
+
             </ul>
 
         </div>
@@ -244,6 +254,12 @@
 
         elements.forEach(el => observer.observe(el));
     });
+
+    function toggleSocials() {
+        var links = document.getElementById("social-links");
+        links.style.display = (links.style.display === "none" || links.style.display === "") ? "block" : "none";
+    }
+
 
 </script>
 
