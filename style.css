@@ -846,8 +846,9 @@
                  
         #social-links a {
 
-            font-size: 25px;
+            font-size: 20px;
            margin-top: 5px;
+           margin-bottom: 10px;
            width: 15px;
            height: 15px;
         }
